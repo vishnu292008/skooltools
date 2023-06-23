@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skool-tool_chat</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js" > </script>
+    <script defer src="../script.js"></script>
+    
+    <style>
+        
+        #main,form{
+            height: 100vh;
+            width:100vw;
+            display:flex;
+            align-items: end;
+        }
+        #type{
+           width: 80%;
+           height:50px;
+           font-size: 25px;
+           padding: 10px;
+           border-radius: 20px;
+        }
+        #send{
+            width:20%;
+            height:60px;
+            margin: 10px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="main">
+        <div id="messagebox"></div>
+        <form action="">
+        <input type="text" id="type">
+        <input type="submit" id="send" value="Send">
+    </form>
+    </section>
+</body>
+</html>

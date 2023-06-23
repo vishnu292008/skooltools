@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height:11vh;
+}
+header::before{
+    content: "";
+    height: 16%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background: #9796f0;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #fbc7d4, #9796f0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    /* background: #2193b0;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #6dd5ed, #2193b0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #FF0099;
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    background: linear-gradient(to right, #493240, #FF0099); */
+    top: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;  
+}
+ul{
+    display: flex;
+margin-top: 5px;
+margin-left: -91px;
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    margin-left: 58px;
+}
+h3{
+    font-size: 30px;
+    font-family: "UBUNTU";
+}
+#main div{
+    position: relative;
+    top: 198px;
+}
+#main::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:url(images/back.png)no-repeat center center/cover;
+    /* filter: blur(4px); */
+    /* opacity: 0.7; */
+    z-index: -1;
+    
+}
+#text{
+    text-align: center;
+}
+#text h1{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 60px;
+}
+#text p{
+    color: white;
+    font-family: "Ubuntu";
+}
+#app{
+    padding: 13px;
+border: none;
+outline: none;
+border-radius: 20px;
+box-shadow: 2px 2px 2px;
+font-family: "Roboto";
+}
