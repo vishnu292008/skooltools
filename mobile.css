@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height:11vh;
+}
+header::before{
+    content: "";
+    height: 16%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background: #9796f0;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #fbc7d4, #9796f0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    /* background: #2193b0;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #6dd5ed, #2193b0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #FF0099;
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    background: linear-gradient(to right, #493240, #FF0099); */
+    top: 0;
+
+}
+nav{
+ display: flex;
+ flex-direction: column;
+
+}
+ul{
+/* margin: 1px; */
+padding: 20px;
+margin: 2px auto;
+display: flex;
+
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Geologica', sans-serif;
+    /* margin-left: 40px; */
+    margin: 4px;
+}
+h3{
+    font-size: 25px;
+    margin: 1px auto;
+}
+#app{
+    display: none;
+}
